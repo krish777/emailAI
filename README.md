@@ -64,3 +64,13 @@ You can replace "microsoft/DialoGPT-medium" with other conversational models, su
 Browse more at: https://huggingface.co/models?pipeline_tag=text-generation
 
 ⚠️ Make sure the new models are compatible with the pipeline task (summarization or text-generation) and install any additional dependencies if needed.
+
+# 3. Sentiment Analysis
+Uses TextBlob, a lightweight NLP library.
+Sentiment is calculated with:
+
+python
+Copy
+Edit
+blob = TextBlob(email_text)
+sentiment = blob.sentiment.polarity
