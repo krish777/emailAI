@@ -30,8 +30,6 @@ If you'd like to change these models, you can update the model names in the emai
 
 Find this line:
 
-python
-Copy
 Edit
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
 You can replace "facebook/bart-large-cnn" with another summarization model, such as:
@@ -48,8 +46,6 @@ Browse more at: https://huggingface.co/models?pipeline_tag=summarization
 
 Find these lines:
 
-python
-Copy
 Edit
 tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-medium")
 model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-medium")
@@ -69,8 +65,10 @@ Browse more at: https://huggingface.co/models?pipeline_tag=text-generation
 Uses TextBlob, a lightweight NLP library.
 Sentiment is calculated with:
 
-python
-Copy
 Edit
 blob = TextBlob(email_text)
 sentiment = blob.sentiment.polarity
+
+# 4. 🔧 Customization
+You can replace the model names in the above lines with any compatible models from Hugging Face 🤗
+Explore more models at: https://huggingface.co/models
