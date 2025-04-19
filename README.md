@@ -17,6 +17,8 @@ TextBlob – Sentiment analysis
 
 PyTorch – ML backend
 
+![image](https://github.com/user-attachments/assets/999df6f2-3ff2-45c6-922b-ab19382e2f89)
+
 # Customize Models
 This project uses two Hugging Face models by default:
 
@@ -68,6 +70,8 @@ Sentiment is calculated with:
 Edit
 blob = TextBlob(email_text)
 sentiment = blob.sentiment.polarity
+
+
 
 # 4. 🔧 Customization
 You can replace the model names in the above lines with any compatible models from Hugging Face 🤗
