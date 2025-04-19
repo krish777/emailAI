@@ -1,5 +1,7 @@
 # Email AI Assitant 
+
 @Author: Krish
+
 📧 Email Assistant – AI Powered Email Summarizer, Sentiment Analyzer & Auto-Replier
 This project is a lightweight Streamlit web app that uses Hugging Face Transformers and TextBlob to:
 
